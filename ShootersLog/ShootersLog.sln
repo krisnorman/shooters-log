@@ -3,9 +3,44 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[-- Data --]", "[-- Data --]", "{CD9D5038-68F5-40DC-A78F-FF6101FA7C65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[-- App --]", "[-- App --]", "{64047D81-7375-4EA1-9E8E-333D2E89B5AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[-- Service --]", "[-- Service --]", "{4BC3AE55-AE69-4E48-A510-84D9F277EC75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShootersLog.Data.EntityFramework", "Data\ShootersLog.Data.EntityFramework\ShootersLog.Data.EntityFramework.csproj", "{D1412542-39AF-48A1-BF94-ABF3869CE4FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShootersLog.Repository", "Data\ShootersLog.Repository\ShootersLog.Repository.csproj", "{97D383D2-7D5F-470C-A933-0B4D6A590A6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShootersLog.Data.Tests", "Data\ShootersLog.Data.Tests\ShootersLog.Data.Tests.csproj", "{E029F879-58FB-4983-A0E0-75759A824690}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1412542-39AF-48A1-BF94-ABF3869CE4FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1412542-39AF-48A1-BF94-ABF3869CE4FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1412542-39AF-48A1-BF94-ABF3869CE4FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1412542-39AF-48A1-BF94-ABF3869CE4FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D383D2-7D5F-470C-A933-0B4D6A590A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D383D2-7D5F-470C-A933-0B4D6A590A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D383D2-7D5F-470C-A933-0B4D6A590A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D383D2-7D5F-470C-A933-0B4D6A590A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E029F879-58FB-4983-A0E0-75759A824690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E029F879-58FB-4983-A0E0-75759A824690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E029F879-58FB-4983-A0E0-75759A824690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E029F879-58FB-4983-A0E0-75759A824690}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D1412542-39AF-48A1-BF94-ABF3869CE4FD} = {CD9D5038-68F5-40DC-A78F-FF6101FA7C65}
+		{97D383D2-7D5F-470C-A933-0B4D6A590A6A} = {CD9D5038-68F5-40DC-A78F-FF6101FA7C65}
+		{E029F879-58FB-4983-A0E0-75759A824690} = {CD9D5038-68F5-40DC-A78F-FF6101FA7C65}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F299C4E8-C9B0-4603-8F84-B1B9060EFA98}
